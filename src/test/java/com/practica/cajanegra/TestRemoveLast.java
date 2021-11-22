@@ -15,11 +15,7 @@ import com.cajanegra.EmptyCollectionException;
 
 public class TestRemoveLast {
 	
-	public static Stream<Arguments> dataException(){
-        return Stream.of(
-                Arguments.of()
-                );
-    }
+	
 	
 	
 		@Test
@@ -33,8 +29,7 @@ public class TestRemoveLast {
 		/* CP2 Comprobamos que para la lista vacia lanza la excepción */
 		
 		
-		@ParameterizedTest
-		@MethodSource("dataException")
+		@Test
 		void testListaVacia() {
 			SingleLinkedListImpl<String> mylist = new SingleLinkedListImpl<String>();
 		    Throwable exception= assertThrows(EmptyCollectionException.class,() -> mylist.removeLast());
