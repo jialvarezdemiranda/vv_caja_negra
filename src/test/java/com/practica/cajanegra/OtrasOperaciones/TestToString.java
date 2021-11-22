@@ -1,4 +1,4 @@
-package com.practica.cajanegra;
+package com.practica.cajanegra.OtrasOperaciones;
 
 import com.cajanegra.SingleLinkedListImpl;
 
@@ -6,25 +6,25 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestSize {
+public class TestToString {
 	@Test
-	/* CP1 Comprobamos que para la lista vacia devuelve un 0 */
+	/* CP1 Comprobamos que para la lista vacia simplemente devuelve una lista vacia */
 	public void listaVacia() {
 		SingleLinkedListImpl<String> mylist = new SingleLinkedListImpl<String>();
-		assertEquals(0, mylist.size());
+		assertEquals("[]", mylist.toString());
 	}
 	
 	@Test
-	/* CP2 Comprobamos que para la lista de un elemento devuelve un 1 */
+	/* CP2 Comprobamos que para la lista de un elemento devuelve el elemento */
 	public void listaUnElemento() {
 		SingleLinkedListImpl<String> mylist = new SingleLinkedListImpl<String>("A");
-		assertEquals(1, mylist.size());
+		assertEquals("[A]", mylist.toString());
 	}
 	
 	@Test
-	/* CP1 Comprobamos que para la lista de siete elementos devuelve un 7 */
+	/* CP1 Comprobamos que para la lista de siete elementos devuelve todos los elementos */
 	public void listaSieteElementos() {
 		SingleLinkedListImpl<String> mylist = new SingleLinkedListImpl<String>("A","B","C","D","D","E","F");
-		assertEquals(7, mylist.size());
+		assertEquals("[A, B, C, D, D, E, F]", mylist.toString());
 	}
 }

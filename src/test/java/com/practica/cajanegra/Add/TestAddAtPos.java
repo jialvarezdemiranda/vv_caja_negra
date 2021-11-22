@@ -1,4 +1,4 @@
-package com.practica.cajanegra;
+package com.practica.cajanegra.Add;
 
 import static org.junit.Assert.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertAll;

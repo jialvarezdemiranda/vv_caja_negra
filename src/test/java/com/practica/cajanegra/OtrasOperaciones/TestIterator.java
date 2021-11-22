@@ -1,4 +1,4 @@
-package com.practica.cajanegra;
+package com.practica.cajanegra.OtrasOperaciones;
 
 import static org.junit.jupiter.api.Assertions.*;
 

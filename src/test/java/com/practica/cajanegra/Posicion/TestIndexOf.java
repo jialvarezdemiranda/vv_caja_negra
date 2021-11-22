@@ -1,4 +1,4 @@
-package com.practica.cajanegra;
+package com.practica.cajanegra.Posicion;
 import static org.junit.Assert.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

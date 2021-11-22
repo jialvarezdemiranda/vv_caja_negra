@@ -1,4 +1,4 @@
-package com.practica.cajanegra;
+package com.practica.cajanegra.OtrasOperaciones;
 
 import com.cajanegra.AbstractSingleLinkedListImpl;
 import com.cajanegra.SingleLinkedListImpl;

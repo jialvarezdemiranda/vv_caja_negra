@@ -1,4 +1,4 @@
-package com.practica.cajanegra;
+package com.practica.cajanegra.Tamanio;
 
 import static org.junit.Assert.assertTrue;
 import org.junit.jupiter.api.Test;
